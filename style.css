@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+}
+
+header nav ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin: auto;
+    gap: 20px;
+}
+
+header nav {
+    max-width: 900px;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    gap: 50px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: auto;
+    gap: 20px;
+    padding: 15px;
+}
+
+header nav .burg {
+    display: none;
+}
+
+@media only screen and (max-width:600px) {
+
+    .list {
+        display: none;
+    }
+
+    header nav .burg {
+        display: inline-block;
+    }
+
+
+}
+
+.coffee {
+    background-image: url(./Bitmap\ \(2\).png);
+    background-repeat: no-repeat;
+    color: white;
+    width: 100%;
+    background-size: cover;
+    height: 500px;
+    margin: auto;
+    padding: 55px;
+    max-width: 1200px;
+    border-radius: 15px;
+}
+
+.cyp {
+    width: 217px;
+    height: 56px;
+    border-radius: 15px;
+    background: #66D2CF;
+    color: white;
+}
+
+section {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    padding: 55px;
+}
+
+.section {
+    background-image: url(./Bitmap@2x.png);
+    background-repeat: no-repeat;
+    color: white;
+    background-size: cover;
+    border-radius: 15px;
+    max-width:1100px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+
+
+}
+.coff {
+    display: flex;
+    gap: 15px;
+}
+
+.box {
+    display: inline-block;
+    background: #0E8784;
+    width: 350px;
+    height: 382px;
+    border-radius: 15px;
+    padding: 50px;
+}
+
+.head {
+    background-color: rgb(71, 71, 71);
+}
+
+.card {
+    display: inline-block;
+    background-color: white;
+    border-radius: 15px;
+
+}
+
+
+.l {
+    color: #FDD6BA;
+    font-size: 75px;
+
+}
+
+@media only screen and (max-width:950px) {
+    section {
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width:950px) {
+    .box {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:950px) {
+    .coff
+     { 
+        flex-direction: column;
+    }
+    .coff {
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:950px){
+    .y {
+        display: none
+    }
+
+    .b {
+        display: inline-block;
+    }
+
+}
+
+.b{
+    display: none;
+}
